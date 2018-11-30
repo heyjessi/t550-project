@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Finding Inner Peas</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/solid.css" integrity="sha384-rdyFrfAIC05c5ph7BKz3l5NG5yEottvO/DQ0dCrwD8gzeQDjYBHNr1ucUpQuljos" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/regular.css" integrity="sha384-z3ccjLyn+akM2DtvRQCXJwvT5bGZsspS4uptQKNXNg778nyzvdMqiGcqHVGiAUyY" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/fontawesome.css" integrity="sha384-u5J7JghGz0qUrmEsWzBQkfvc8nK3fUT7DCaQzNQ+q4oEXhGSx+P2OqjWsfIRB8QT" crossorigin="anonymous">
+<body>
+
+    <!-- content -->
+
+    <audio id="bestAudio" >
+        <source src="audio/Cassandra-BestMeal.wav" type="audio/wav">
+        Your browser does not support the audio element.
+    </audio>
+
+    <audio id="weekAudio" >
+        <source src="audio/Cassandra-BestWeek.wav" type="audio/wav">
+        Your browser does not support the audio element.
+    </audio>
+
+    <audio id="comfortAudio" >
+        <source src="audio/Cassandra-Comfort.wav" type="audio/wav">
+        Your browser does not support the audio element.
+    </audio>
+
+    <audio id="favoriteAudio" >
+        <source src="audio/Cassandra-Favorite.wav" type="audio/wav">
+        Your browser does not support the audio element.
+    </audio>
+
+    <audio id="nostalgiaAudio" >
+        <source src="audio/Cassandra-Nostalgic.wav" type="audio/wav">
+        Your browser does not support the audio element.
+    </audio>
+
+    <audio id="perfectAudio" >
+        <source src="audio/Cassandra-Perfect.wav" type="audio/wav">
+        Your browser does not support the audio element.
+    </audio>
+
+    <h1>finding inner peas</h1>
+    <h4>exploring nostalgia and identity through food stories</h4>
+    <h4>a t550 project by jess eng</h4>
+    <br>
+    <div class="row">
+        <div class="spacer"></div>
+        <div id="intro">
+            <p>Food is inherent to our identity—our ethnicities, our genders, and our names—and how you and I perceive the world. Yet, I’ve noticed that our introductions often follow a singular, rigid structure. “Hello my name is Jess and I’m from San Francisco”.</p>
+            <p>Can you imagine a world where people introduced themselves with memories of food, cooking, or even creative learning? What if we contemplated our identities through the lens of food, thereby opening ourselves up to a deeper exploration of our culture and past memories: “Hello my name is Jess and I ate mantou (Chinese bread) for breakfast because it reminded me of my parents and younger sister back home.” </p>
+        </div>
+        <div class="spacer"></div>
+        <div id="peas">
+            <img class="mySlides" src="img/pea1.png">
+            <img class="mySlides" src="img/pea2.png">
+            <img class="mySlides" src="img/pea3.png">
+            <img class="mySlides" src="img/pea4.png">
+        </div>
+    </div>
+
+    <h5><b>instructions:</b></h5>
+
+    <ol>
+        <li>click on the arrow below and enter a space where food evokes powerful memories</li>
+        <li>hover over an image to hear a 30-60 second audio snippet</li>
+        <li>stop to listen, remember, connect, and understand</li>
+        <li>feel free to peruse on your own time! enjoy!</li>
+    </ol>
+    <br>
+    <button class="btn btn-light" id="show"><i class="fas fa-arrow-right"></i></button>
+    <br>
+
+    <div class="stories" id="cass">
+        <h4>cassandra</h4>
+        <br>
+        <div class="profile row">
+            <img src="img/best1.png" id="best" class="myProfile">
+            <div class="spacer"></div>
+            <img src="img/comfort1.png" id="comfort" class="myProfile">
+            <div class="spacer"></div>
+            <img src="img/favorite1.png" id="favorite" class="myProfile">
+            <div class="spacer"></div>
+            <img src="img/nostalgic1.png" id="nostalgia" class="myProfile">
+            <div class="spacer"></div>
+            <img src="img/perfect1.png" id="perfect" class="myProfile">
+        </div>
+    </div>
+    <br>
+    <p id="footer">© jess eng 2018</p>
+
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/d3.min.js"></script>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

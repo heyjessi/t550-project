@@ -1,0 +1,53 @@
+/* custom css rules */
+
+body {
+	font-family: 'Avenir Next', sans-serif;
+	margin: 25px;
+}
+
+h1 {
+	font-size: 60px;
+}
+
+h4 {
+	font-size: 32px;
+}
+
+h5 {
+	font-size: 28px;
+}
+
+img {
+	width: 290px;
+	height: 290px;
+}
+
+.mySlides {
+	width: 30em;
+	height: 30em;
+}
+
+.stories {
+	display: none;
+	/*opacity: 0;*/
+}
+
+.profile {
+	height: 300px;
+	opacity: 0;
+}
+
+.spacer {
+	width: 15px;
+}
+
+#intro, li {
+	width: 50%;
+	font-size: 22px;
+}
+
+#footer {
+	text-align: right;
+}
+
+
